@@ -1,0 +1,56 @@
+@import 'styles/colors';
+
+.side-bar {
+  z-index: 1;
+  .logotext{
+      img.big-logo{
+        padding: 21px 41px 21px;
+      }
+      img.small-logo{
+          padding: 27px 27px 27px;
+      }
+      height: 80px;
+      background-color: #0E7CE2;
+      
+  }
+  .closemenu {
+    right: -12px !important;
+    top: 28px !important;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+  }
+
+  .pro-sidebar-content{
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0E7CE2;
+  }
+
+  .pro-menu{
+      font-size: 12px;
+  }
+
+
+  .pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+    position: initial !important;
+  }
+
+  .pro-sidebar .pro-menu .pro-menu-item {
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+  }
+  
+  .pro-menu-item .react-slidedown{
+    transition-duration: 0s;
+  }
+  
+}

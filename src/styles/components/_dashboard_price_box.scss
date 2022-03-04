@@ -1,0 +1,83 @@
+@import 'styles/colors';
+
+.price-box-group {
+    padding: 21px;
+
+    .price-box {
+        border-radius: 12px;
+        width: 31%;
+        height: 170px;
+        background-color: white;
+        margin-left: 16px;
+        position: relative;
+        display: inline-block;
+        .icon-img {
+            margin-left: 16px;
+            margin-top: -21px;
+            .img{
+                width: 64px;
+                height: 64px;
+            }
+        }
+      
+        .total-price {
+          position: absolute;
+          right: 20px;
+          top: 15px;
+          color: #0E7CE2;
+          font-size: 14px;
+          
+          span{
+              position: absolute;
+              font-size: 24px;
+              color: #21282F;
+              right: 0px;
+          }
+        }
+      
+        .compare-prev {
+          margin-top: 10px;
+          margin-left: 16px;
+          font-size: 12px;
+          display: inline-block;
+          span{
+              color: #4CAF50;
+              font-weight: bold;
+          }
+        }
+      
+        hr {
+          width: 100%;
+          border: 1px solid #F0F2F5;
+          margin-top: 18px;
+          margin-bottom: 18px;
+        }
+      
+        .price-detail{
+            margin-left: 16px;
+            margin-right: 16px;
+          ul{
+              list-style-type: none;
+              margin: 0px;
+              padding: 0px;
+              text-align: center;
+              li{
+                  display: inline-block;
+                  width: 23%;
+                  p{
+                      font-family: "Mulish";
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 13px;
+                  }
+                  border-right: 1px solid #C1C1C1;
+                  border-right-background : linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #C1C1C1 47.92%, rgba(255, 255, 255, 0) 100%);
+              }
+              li:last-child{
+                  border-right: 0px;
+              }
+          }
+          
+        }
+    }
+}

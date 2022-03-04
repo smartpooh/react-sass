@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'mulish-regular';
+    src: url('/fonts/Molish/static/Mulish-Regular.ttf');
+    font-weight: normal;
+    font-style:  normal;
+}
+
+$font-main: 'mulish-regular', sans-serif;
+
+@import "components/dashboard";
+@import "components/sidebar";
